@@ -1,0 +1,101 @@
+<style>
+html, body{
+  text-decoration:none;
+  margin: 0;
+    padding: 0;
+}
+
+body{
+  display: flex;
+  flex-direction: column; 
+  height: 100vh;
+  text-decoration:none;
+}
+
+body, a, p{
+  font-family: Arial, sans-serif;
+}
+
+a{
+  font-size: 13px;
+  decoration-text: none; 
+  color: black;
+}
+
+header{
+  height: 30px;
+  padding-bottom:60px;
+}
+
+header ul li{
+  display: block;
+  float: right;
+  padding: 8px;
+}
+
+#Sing-in{
+  float:right;
+  height: 20px;
+  width: 20px;
+}
+
+#Apps {
+  float:right;
+  height: 20px;
+  width: 15px;
+}
+
+.header-right{
+  float: right;
+}
+
+.header-left{
+  float: left;
+}
+
+main{
+  text-align: center;
+  padding-bottom:70px;
+}
+
+.Google-logo{
+  margin: auto;
+  paddin-top:109px;
+  padding-bottom: 15px;
+}
+
+.search-input input{
+  border: 1px solid #dadce0;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+.search-button {
+  margin-top: 12px;
+    padding: 8px;
+    background-color: transparent;
+    border-radius: 4px;
+  font-size:small;
+  color:#222;
+}
+
+footer{
+   margin: auto 0px 0px 0px;
+    padding: 0;
+    background-color:rgb(242, 242, 242);
+  text-decoration:none;
+}
+
+footer li {
+    display: block;
+    float: right;
+    padding: 8px;
+}
+
+.footer-left {
+    float: left;
+}
+
+.footer-right {
+    float: right;
+}
